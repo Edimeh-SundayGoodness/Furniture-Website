@@ -1,7 +1,7 @@
-@media screen and (min-width: 350px) {
+
     #image{
-        width: 4em;
-        height: 4em;
+        width: 5em;
+        height: 5em;
         float: left;
         padding-left: 0.5em;
         margin-top: 3px;
@@ -9,94 +9,245 @@
     }
 
     #furniture{
-        margin-left: 4.5em;
-        color: rgb(41, 41, 90);
+        /* margin-left: 4.5em; */
+        color: white;
         font-weight: bolder;
         font-size: 1em;
     }
     #may{
         font-size: x-large;
         /* margin-top: -0.2em; */
-        color: rgb(41, 41, 90);
+        color: white;
         font-weight: 900%;
     }
-    #links{
+    /* #head2{
+        position: fixed;
+    } */
+    #head{
+        position: absolute;
+        width: 19.3em;
+        height: 8.5em;
+        background-color:rgb(0, 0, 0, 0.6) ;
+    }
+    .links{
         display: inline;
-        margin-left: -13em;
-        /* font-size: ; */
+        border: 2px solid white;
         font-weight: 900;
-        color: rgb(41, 41, 90);
-        word-spacing: 0.002em;
+        color: white;
+        word-spacing: 2em;
+        margin-top: 1em;
+    
     }
     #text{
-        width: 7em;
-        height: 3em;
+        width: 12em;
+        height: 2.5em;
+        position: absolute;
+        left: -0.1px;
+        top: 6.8em;
         border: rgb(80, 70, 70);
-        border-radius: 1em;
-        background-color: rgb(209, 198, 198);
-        margin-left: 18em;
+        border-radius: 2em;
+        background-color: white;
+        /* margin-left: 10em; */
         padding-left: 1em;
-        margin-top: -15em;
+        /* margin-top: 2em; */
+        color: black;
+        cursor: pointer;
+        background-image: url(../IMGS/search_icon.jfif);
+        background-repeat: no-repeat;
+        background-size: 1.5em;
+        background-position: left;
     }
     #display{
         display: inline;
     }
     #top{
-        text-align: center;
+        /* text-align: center; */
         line-height: 2px;
+        position: absolute;
     }
     #make{
-        font-size: 200%;
+        font-size: 180%;
+        color: white;
+        margin-top: 5em;
         line-height: 1em;
+        /* margin-left: 1em; */
+        font-weight: 950;
+        text-align: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .dropdown {
+        /* position: relative; */
+        display: inline;
+    }
+    .dropbtn {
+        border: none;
+        cursor: pointer;
+        width: 2em;
+        height: 2em;
+        float: right;
+        margin-left: 10em;
+        margin-top: -3em;
+        z-index: 3;
+        position: absolute;
+    }
+    .dropdown.dropdown:hover .dv {
+        display: inline-block;
+        /* margin-left: 5em; */
+        margin-top: 5em;
+    }
+    .dv{
+        display: none;
+        position: absolute;
+        top: -3%;
+        left: 40%;
+        background-color:  rgb(12, 10, 10, 0.9);
+        width: 7em;
+        height: 15em;
+        min-width: 50%;
+        z-index: 1;
+        padding-left: 3em;
+    }
+   
+    .dv a{
+        text-decoration: none;
+        display: block;
+        /* background-color: rgb(245, 213, 30); */
+        background-color: rgb(12, 10, 10, 0.5);
+        border: 2px solid white;
+        text-align: center;
+        width: 5em;
+        padding-top: 1em;
+        color: white;
+        height: 2em;
+    }
+    .shopping{
+        width: 3.5em;
+        height: 3.5em;
+        margin-left: 9em;
+        /* float: right; */
+        /* background-color: hotpink; */
+    }
+    #goat{
+        width: 3em;
+        height: 3em;
+        float: right;
     }
     #find{
         font-size: 120%;
         line-height: 1em;
         text-align: center;
+        color: white;
+        font-weight: bolder;
+        /* margin-top: 5em; */
         /* margin-left: 4em; */
     }
     #source{
-        width: 26em;
-        height: 18em;
+        width: 19.3em;
+        height: 20em;
     }
-    #div{
-        display: inline;
-        /* margin-left: -4.5em; */
-        font-weight: bolder;
-        /* font-size: larger; */
+    .duvet{
+        width: 9em;
+        height: 12em;
+        border: 1px hidden white;
+        border-radius: 1em;
+        margin-left: 0.25em;
+        /* display: flex;
+        flex-direction: column; */
+        /* box-shadow: 1em 1em 1em 1em; */
+    }
+    .intro{
+        height: 31em;
+        width: 18.9em;
+        padding: 0.2em;
+        /* overflow-x: auto; */
+        background-color: rgb(245, 210, 13, 0.5);
+    }
+    #intro{
+        font-size: 170%;
+        text-align: center;
+        width: 100%;
+        /* background-color: rgb(245, 210, 13, 0.9); */
     }
     #all{
         font-weight: bolder;
         font-size: 170%;
         margin-left: 5px;
     }
-    .bedroom{
-        width: 7em !important;
-        height: 4em;
-        border: 2px solid rgb(146, 139, 139);
+    
+    .living{
+        margin-left: 11em;
+        margin-top: -6.2em;
+    }
+    .img{
+        width: 18.5em;
+        height: 15em;
+        border: none;
         border-radius: 1em;
-        background-color: rgb(216, 204, 204);
+    }
+    .get{
+        font-size: 130%;
+        text-shadow: 5em 5em black;
+    }
+    .get1{
+        font-size: 150% ;
         text-align: center;
-        /* display: inline; */
-        padding-top: 2em;
     }
-    .bedroom:hover{
-        border: 3px solid purple;
-        width: 10em !important;
-        height: 5em;
-        padding-top: 4em;
+    .sofa{
+        width: 17em;
+        height: 17em;
+        border: 1px hidden white;
         border-radius: 1em;
     }
+    .css{
+        width: 15em;
+        height: 15em;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* border: 1px hidden white; */
+        border: 1px solid rgb(170, 155, 155);
+        box-shadow: 0.1em 0.1em 0.1em  grey;
+        border-radius: 1em;
+        /* border-radius: 1em;  */
+    }
+    /* #support{
+        margin-left: 40em;
+        margin-top: -12.5em;
+    }
+    #about1{
+        margin-left: 10em;
+    } */
+    .about{
+        font-size: 150%;
+    }
+    .face{
+        width: 3em;
+        height: 3em;
+    }
+    .insta{
+        display: inline;
+    }
+    /* #contact{
+        margin-left: 70em;
+        margin-top: -12.5em ;
+    } */
     #footer{
-        width: 40em;
-        height: 5em;
-        padding-left: 1em;
-        padding-top: 1em;
+        margin-top: 1em;
+        width: 100%;
+        height: 35em;
+        /* padding-left: 1em; */
+        padding-top: 0.5em;
         font-weight: bold;
-        background-color: purple;
+        background-color: rgb(34, 26, 26, 0.5);
         color: white;
-        font-size: x-small;
+        padding-left: 3em;
+    }
+    .story:hover{
+        color: gold;
+        font-size: 120%;
+    }
+    #more{
+        font-size: 150%;
     }
     #connect{
         margin-left: 22em;
@@ -105,7 +256,7 @@
     #terms{
         /* text-align: right; */
         margin-left: 22em;
-        margin-top: 2em;
+        margin-top: 1.5em;
     }
     #files{
         margin-left: 15em;
@@ -116,7 +267,7 @@
         /* margin-left: 30em; */
         margin-top: -7.2em;
     }
-}
+
 @media screen and (min-width:500px) {
     #image{
         width: 4.5em;
@@ -187,19 +338,19 @@
     .bedroom{
         width: 10em !important;
         height: 5em;
-        border: 2px solid rgb(146, 139, 139);
-        border-radius: 1em;
-        background-color: rgb(216, 204, 204);
+        /* border: 2px solid rgb(146, 139, 139); */
+        /* border-radius: 1em; */
+        /* background-color: rgb(216, 204, 204); */
         text-align: center;
         /* display: inline; */
         padding-top: 3em;
     }
     .bedroom:hover{
-        border: 3px solid purple;
+        /* border: 3px solid purple; */
         width: 10em !important;
         height: 5em;
         padding-top: 4em;
-        border-radius: 1em;
+        /* border-radius: 1em; */
     }
     #footer{
         width: 40em;
@@ -207,7 +358,7 @@
         padding-left: 1em;
         padding-top: 1em;
         font-weight: bold;
-        background-color: purple;
+        background-color: black;
         color: white;
         font-size: small;
     }
@@ -330,8 +481,8 @@
         padding-left: 5px;
     }
     #kid{
-        display: flex;
-        flex-direction: row;
+        /* display: flex;
+        flex-direction: row; */
         margin-bottom: 2em;
     }
     #all{
@@ -339,39 +490,14 @@
         font-size: 270%;
         margin-left: 5px;
     }
-    .bedroom{
-        width: 10em !important;
-        height: 3em;
-        border: 2px solid rgb(146, 139, 139);
-        border-radius: 1em;
-        background-color: rgb(216, 204, 204);
-        text-align: center;
-        /* margin-left: 2em; */
-        /* display: inline; */
-        /* padding-top: 3em; */
-    }
-    .bedroom:hover{
-        border: 3px solid purple;
-        width: 10em;
-        height: 3em;
-        padding-top: 3em;
-        border-radius: 1em;
-    }
-    /* #room{
-        width: 10em;
-        height: 10em;
-        display: inline !important;
-    }  zzzzz
-    #foot{
-        display: inline !important;
-    } */
+    
     #footer{
         width: 58em;
         height: 5em;
         padding-left: 1em;
         padding-top: 1em;
         font-weight: bold;
-        background-color: purple;
+        background-color: black;
         color: white;
         position: absolute;
         /* margin-bottom: -50em; */
@@ -389,6 +515,11 @@
         margin-left: 30em;
         margin-top: -8.99em;
     }
+    .dropdown.dropdown:hover .dv {
+        display: inline-block;
+        margin-left: 40em;
+        margin-top: 5em;
+    }
     
 }
 @media screen and (min-width:1200px) {
@@ -400,46 +531,101 @@
         margin-top: 0.5em;
     }
     #furniture{
-        color:  rgb(41, 41, 90);
+        color:  white;
         font-weight: bolder;
         font-size: 1.45em;
         margin-left:4em ;
     }
     #may{
         font-size: xx-large;
+        color: white;
+    }
+    #mainlink{
+       position: absolute;
+       top: 1em;
+       left: 60em;
     }
     #div{
         display: inline;
-        margin-left: -4.5em;
+        margin-left: 0.1em;
         font-weight: bolder;
         font-size: larger;
+        color: white;
     }
-    #links{
+    #head{
+        position: absolute;
+        background-color: rgb(0, 0, 0, 0.5);
+        /* opacity: 0.3; */
+        width: 83.8em;
+        height: 11em;
+    }
+    /* #head2{
+        /* position: fixed; */
+    /* } */ 
+    .links{
         display: inline;
+        border: 1px solid white;
+        width: 6em;
+        height: 2em;
+        padding: 0.5em;
        /* padding: ; */
         font-size: large;
         font-weight: 900;
-        color: rgb(41, 41, 90);
+        color: white;
         word-spacing: 0.1em;
     } 
     .links:hover{
-        border: 3px solid purple;
-        border-radius: 1em;
-        width: 4.5em;
+        background-color: rgb(250, 215, 16);
+        width: 5em;
+        color: black;
+        border-radius: 0.1px;
+        border: 1px solid white;
         height: 2em;
+        width: 6em;
+    }
+    #img{
+        height: 30em;
+        border: 1px hidden white;
+        border-radius: 0.5em;
+        width: 60em;
+        float: left;
+    }
+    #empty{
+        width: 10em;
+        height: 60em;
+        border: 1px solid black;
+        border-radius: 1em;
+        margin-left: 60em;
+    }
+    #meet{
+        margin-top: 15em;
+        margin-left: 20em;
+    }
+    #img2{
+        height: 30em;
+        border: 1px hidden white;
+        border-radius: 0.5em;
+        width: 60em;
+        float: right;
+        /* margin-top: 5em; */
     }
     #text{
-        width: 20em;
-        height: 3em;
-        border: rgb(80, 70, 70);
-        border-radius: 1em;
-        background-color: rgb(209, 198, 198);
-        margin-left: 35em;
-        padding-left: 1em;
+        width: 40em;
+        height: 2.5em;
+        border: 2px solid rgb(19, 14, 14);
+        border-radius: 4em;
+        background-color: white;
+        margin-left: 20em;
+        padding-left: 3em;
         /* margin-top: -5em; */
         font-weight: bolder;
         color: black;
         font-size: 100%;
+        cursor: pointer;
+        background-image: url(../IMGS/search_icon.jfif);
+        background-repeat: no-repeat;
+        background-size: 1.5em;
+        background-position: left;
     }
     #display{
         display: inline;
@@ -447,67 +633,71 @@
     #top{
         text-align: center;
         line-height: 2px;
+        position: absolute;
+        /* top: 1em; */
     }
     #make{
         font-size: 300%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-left: 7em;
+        
     }
     #find{
         font-size: 145%;
-        line-height: 1em;  
+        line-height: 1em; 
+        color: white; 
+        text-align: center;
+        margin-left: 13em;
+        
     }
     #source{
-        width: 81em;
-        height: 55em;
+        width: 83.8em;
+        height: 50em;
     }
-    /* #category{
-        width: 49em;
-        height: 20em;
-        border: 2px solid rgb(194, 184, 184);
-        border-radius: 1em;
-        background-color: rgb(221, 215, 215);
-    } */
-    #all{
-        font-weight: bolder;
-        font-size: 270%;
-        margin-left: 5px;
-    }
-    .bedroom{
-        width: 10em !important;
-        height: 5em;
-        border: 2px solid rgb(146, 139, 139);
-        border-radius: 1em;
-        background-color: rgb(216, 204, 204);
+    #intro{
         text-align: center;
-        /* display: inline; */
-        padding-top: 3em;
+        font-weight: bolder;
+        font-size: 350%;
+        /* background-color: rgba(250, 221, 58, 0.9); */
+        padding: 0.7em;
     }
-    .bedroom:hover{
-        border: 3px solid purple;
-        width: 10em;
-        height: 5em;
-        padding-top: 3em;
+    .intro{
+        width: 83em;
+        height: 40em;
+        background-color: rgba(250, 221, 58, 0.5);   
+    }
+    .duvet{
+        width: 26em;
+        height: 22em;
+        border: 1px hidden white;
         border-radius: 1em;
+        margin-left: 1em;
     }
-    /* #room{
-        width: 10em;
-        height: 10em;
-        display: inline !important;
-    }  zzzzz
-    #foot{
-        display: inline !important;
-    } */
+    #intro2{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 300%;
+    }
     #footer{
-        width: 100em;
-        height: 5em;
-        padding-left: 1em;
-        padding-top: 1em;
+        width: 102em;
+        height: 15em;
+        /* padding-left: 1em; */
+        /* padding-top: 1em; */
         font-weight: bold;
-        background-color: purple;
+        background-color: rgb(0, 0, 0, 0.5 );
+        /* opacity: 0.3; */
         color: white;
     }
+   
+    .fa-solid{
+        height: 3em;
+        width: 3em;
+        margin-left: 79em;
+        margin-top: 0.1px;
+    }
     #connect{
-        margin-left: 80em;
+        margin-left: 85em;
         margin-top: -4.5em;
     }
     #terms{
@@ -515,5 +705,141 @@
         margin-left: 80em;
         margin-top: 2em;
         padding: none;
-    }    
+    }  
+    .dropdown {
+        /* position: relative; */
+        display: inline;
+    }
+    .dropbtn {
+        border: none;
+        cursor: pointer;
+        z-index: 3;
+        position: absolute;
+    }
+    .dropdown.dropdown:hover .dv {
+        display: inline-block;
+        margin-top: 5em;
+    }
+    .dv{
+        display: none;
+        position: absolute;
+        top: 5em;
+        left: 37%;
+        padding-right: 2em;
+        background-color:  rgb(12, 10, 10, 0.9);
+        width: 7em;
+        height: 18em;
+        min-width: 50%;
+        z-index: 1;
+        padding-left: 3em;
+    }
+    /* .dv:hover{
+        width: 2em;
+    } */
+    .dv a{
+        text-decoration: none;
+        display: block;
+        /* background-color: rgb(245, 213, 30); */
+        background-color: rgb(12, 10, 10, 0.5);
+        border: 2px solid white;
+        text-align: center;
+        width: 5em;
+        padding-top: 1em;
+        color: white;
+        height: 2em;
+    }
+    #empty{
+        margin-left: 62em;
+        width: 20em;
+        height: 44.5em;
+        margin-top: -45em;
+        border: 5px groove rgb(245, 212, 23);
+        border-radius: 1em;
+    }
+    #empty2{
+        height: 20em;
+        width: 83em;
+        margin-top: 3em;
+        border: 5px groove rgb(245, 212, 23);
+        border-radius: 1em;
+    }
+    .img{
+        width: 83em;
+        height: 45em;
+    }
+    .shopping{
+        width: 4.8em;
+        height: 4.5em;
+        margin-top: -10px;
+        margin-left: 74em;
+    }
+    .shop{
+        margin-left: 70em;
+        margin-top: -10em;
+    }
+    .get{
+        font-size: 220%;
+        font-weight: bolder;
+    }
+    .sofa{
+        width: 41em;
+        height: 35em;
+        border: 1px hidden white;
+        border-radius: 1em;
+        display: inline;
+        /* margin-top: 2em; */
+    }
+    #more{
+        font-size: 280%;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .get1{
+        text-align: center;
+        font-size: 280%;
+        font-weight: bolder;
+    } 
+    .css{
+        /* display: flex; */
+        /* flex-direction: row; */
+        width: 20em;
+        height: 17em;
+        border: 1px solid rgb(170, 155, 155);
+        box-shadow: 0.1em 0.1em 0.1em  grey;
+        border-radius: 1em;
+        display: inline;
+        /* flex-direction: column; */
+    }
+    #support{
+        margin-left: 40em;
+        margin-top: -12.5em;
+    }
+    #about1{
+        margin-left: 10em;
+    }
+    .story:hover{
+        color: rgb(255, 221, 28);
+        /* font-size: 120%; */
+        /* border: 2px solid rgb(255, 221, 28);
+        border-radius: 0.5em;
+        width: 5em;
+        padding: 0, 1em, 0, 1em; */
+    }
+    .about{
+        font-size: 150%;
+    }
+    .face{
+        width: 3em;
+        height: 3em;
+    }
+    .insta{
+        display: inline;
+    }
+    #contact{
+        margin-left: 70em;
+        margin-top: -12.5em ;
+    }
+    #best{
+        font-size: 120%;
+    }
 }
